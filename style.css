@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'open-sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('open-sans'),
+        url('./open-sans-v34-latin-regular.woff2') format('woff2'),
+        url('./open-sans-v34-latin-regular.woff') format('woff'),
+        url('./open-sans-v34-latin-regular.ttf') format('ttf'),
+        url('./open-sans-v34-latin-regular.eot') format('eot');
+}
+@font-face {
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('raleway'),
+        url('./Raleway-Thin.woff2') format('woff2'),
+        url('./Raleway-Thin.woff') format('woff'),
+        url('./Raleway-Thin.ttf') format('ttf'),
+        url('./Raleway-Thin.eot') format('eot');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about {
+    position: absolute;
+    width: 1170px;
+    height: 665px;
+    margin: 150px;
+}
+.about__header__h2 {
+    width: 1170px;
+    height: 150px;
+    font-family: 'raleway';
+    padding: 60px 420px;
+}
+.about__header__separator {
+   width: 130px;
+   height: 0px;
+   margin: 5px 480px;
+   border: 1px solid #EC7979;
+}
+.about__header__h5 {
+    width: 1169px;
+    height: 121px;
+    font-family: 'raleway';
+    padding: 30px 402px;
+    color: #86878B;
+}
+.about__group1 {
+    display: inline-block;
+    width: 370px;
+    height: 383px;    
+}
+.about__group1__icon1 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin: 0px 0px 0px 100px;
+    border-radius: 100px;
+}
+.about__group1__icon1__ellipse {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 22.94%;
+}
+.about__group1__icon1__group {
+    position: absolute;
+    margin: 29%;
+}
+.about__group1__icon1__group__vector {
+    position: absolute;
+    margin: 29%;
+}
+.about__group1__h5 {
+    width:370px ;
+    height:105px ;
+    font-family: 'raleway';
+    text-align: center;
+    padding: 70% 0px 0% 2.32%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+.about__group1__h4 {
+    width: 369px;
+    height: 100px;
+    margin: -90px 0px 0px 89px;
+    font-family: 'open-sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.about__group2 {
+    display: inline-block;
+    position: absolute;
+    width: 370px;
+    height: 383px;  
+}
+.about__group2__icon2 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin: 0px 0px 0px 100px;
+    border-radius: 100px;
+}
+.about__group2__icon2__ellipse {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 22.94%;
+}
+.about__group2__icon2__vector {
+    position: absolute;
+    margin: 36% 31% 31% 31%;
+}
+.about__group2__h5 {
+    width:370px ;
+    height:105px ;
+    font-family: 'raleway';
+    text-align: center;
+    padding: 70% 0px 0% 2.32%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+.about__group2__h4 {
+    width: 369px;
+    height: 100px;
+    margin: -90px 0px 0px 89px;
+    font-family: 'open-sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.about__group3 {
+    display: inline-block;
+    position: absolute;
+    width: 370px;
+    height: 383px;  
+    margin: 0% 0% 0% 31%;
+}
+.about__group3__icon3 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin: 0px 0px 0px 100px;
+    border-radius: 100px;
+}
+.about__group3__icon3__ellipse {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 22.94%;
+}
+.about__group3__icon3__vector3 {
+    position: absolute;
+    margin: 31% 31% 31% 38%;
+}
+.about__group3__h5 {
+    width:370px ;
+    height:105px ;
+    font-family: 'raleway';
+    text-align: center;
+    padding: 70% 0px 0% 2.32%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+.about__group3__h4 {
+    width: 369px;
+    height: 100px;
+    margin: -90px 0px 0px 89px;
+    font-family: 'open-sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
